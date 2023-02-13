@@ -6,7 +6,7 @@ local SocketEnchant = 37430 -- Item ID
 local RequiredMoney = 100000 -- Example required money amount in copper (10g)
 
 local function OnGossipHello(event, player, creature)
-player:GossipMenuAddItem(0, "Exchange money for a socket enchant", 0, 1)
+player:GossipMenuAddItem(0, "|TInterface\\Icons\\inv_misc_gem_variety_01:50:50:-43:0|tPurchase gem sockets for your gear?", 0, 1)
 player:GossipSendMenu(1, creature)
 end
 
