@@ -7,7 +7,7 @@ local RequiredItem = 43102 -- Frozen Orb ID. Can set this to whatever Item ID.
 local RequiredAmount = 15 -- Example required Item amount
 
 local function OnGossipHello(event, player, creature)
-player:GossipMenuAddItem(0, "Exchange Frozen Orbs for a socket enchant", 0, 1) --can change "Frozen Orbs" to whatever if you change requireditemid. Same with the dialogue below.
+player:GossipMenuAddItem(0, "|TInterface\\Icons\\inv_misc_gem_variety_01:50:50:-43:0|tPurchase gem sockets for your gear?", 0, 1) --can change "Frozen Orbs" to whatever if you change requireditemid. Same with the dialogue below.
 player:GossipSendMenu(1, creature)
 end
 
