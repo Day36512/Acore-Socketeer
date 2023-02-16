@@ -25,7 +25,7 @@ player:AddItem(SocketEnchant, 1)
 player:SendBroadcastMessage("The socket enchant has been added to your inventory.")
 player:GossipComplete()
 else
-player:SendBroadcastMessage("You do not have enough Frozen Orb.")
+player:SendBroadcastMessage("You do not have enough Frozen Orbs.")
 player:GossipComplete()
 end
 elseif (intid == 3) then
