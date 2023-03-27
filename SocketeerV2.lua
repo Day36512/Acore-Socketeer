@@ -1,6 +1,6 @@
 --by Dinkledork
 -- This script creates an NPC that allows you to exchange money for a socket enchant you can use on any piece of equipment
---Just .npc add 190015
+--Just .npc add 190015 You may need to restart server first.
 
 local SocketEnchant = 37430 -- Item ID
 local RequiredMoney = 100000 -- Example required money amount in copper (10g)
